@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: alexcrichton/example-wasi-abi-up-to-date@0.1.0
+    - uses: alexcrichton/example-wasi-abi-up-to-date@v1
       with:
         wai-abi-tag: wai-abi-0.1.0
